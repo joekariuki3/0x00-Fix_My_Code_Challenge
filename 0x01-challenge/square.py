@@ -25,7 +25,7 @@ class Square():
         for key, value in kwargs.items():
             setattr(self, key, value)
 
-    def Area_of_my_square(self):
+    def AreaOfMySquare(self):
         """
         Area of the square
         is returened by geting product of width * width
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     """
     s = Square(width=12, height=9)
     print(s)
-    print(s.Area_of_my_square())
+    print(s.AreaOfMySquare())
     print(s.PermiterOfMySquare())
