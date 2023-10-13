@@ -44,7 +44,11 @@ class square():
 
 
 if __name__ == "__main__":
-
+    """
+    the following will be executed
+    when this code is run as the main
+    function not imported
+    """
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
