@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""
+a class representing a square
+"""
+
+
 class square():
     """
     class representing a square
@@ -7,7 +12,6 @@ class square():
     and height
     """
     width = 0
-    height = 0
 
     def __init__(self, *args, **kwargs):
         """
@@ -19,21 +23,21 @@ class square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.height
+        return self.width * self.width
 
     def PermiterOfMySquare(self):
         """
         method to calculate the perimeter
         of the square
         """
-        return (self.width * 2) + (self.height * 2)
+        return (self.width * 2) * 2
 
     def __str__(self):
         """
         method to retuen string rep
         of the square
         """
-        return "{}/{}".format(self.width, self.height)
+        return "{}/{}".format(self.width, self.width)
 
 
 if __name__ == "__main__":
