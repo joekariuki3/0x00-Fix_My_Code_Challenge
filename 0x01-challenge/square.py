@@ -16,7 +16,8 @@ class square():
     def __init__(self, *args, **kwargs):
         """
         declaration of the square
-        class
+        class and asigning value to
+        attributes using a loop
         """
         for key, value in kwargs.items():
             setattr(self, key, value)
