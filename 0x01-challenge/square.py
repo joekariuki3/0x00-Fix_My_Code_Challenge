@@ -2,6 +2,8 @@
 
 """
 a class representing a square
+having class artributes of
+width
 """
 
 
@@ -9,7 +11,7 @@ class square():
     """
     class representing a square
     having class artributes of width
-    and height
+    and width
     """
     width = 0
 
