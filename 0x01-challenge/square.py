@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 """
 a class representing a square
@@ -7,7 +7,7 @@ width
 """
 
 
-class square():
+class Square():
     """
     class representing a square
     having class artributes of width
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     when this code is run as the main
     function not imported
     """
-    s = square(width=12, height=9)
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
